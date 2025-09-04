@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'prompt',sans-serif;
+    background-color: rgb(255, 210, 217);
+    color: black;
+}
+h1,h2,h3{
+    margin-top: 1rem;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: rgb(48, 28, 28);
+}
+ul{
+    list-style: none;
+}
+.main-header{
+    background-color: hotpink;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-links{
+    display: flex;
+    gap: 2rem;
+}
+.nav-links a:hover{
+    color: rgb(105, 105, 243);
+}
+.nav-links a{
+    transition: color 0.8s ease;
+}
+.hero-selection{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+    align-items: center;
+    text-align: center;
+}
+.hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    display: inline-block;
+    background-color: #5858ff;
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+.btn:hover{
+    background-color: rgb(155, 155, 155);
+}
+.about-section, .contact-section{
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #ffddb4;
+}
+.mb2{
+    margin-bottom: 1rem;
+}
+.project-section{
+    padding: 4rem 2rem;
+    background-color: #83c3ff;
+    text-align:center ;
+}
+.project-nongkhwankhao{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 2rem;
+    max-width: 1100px;
+    margin: auto;
+}
+.project-card{
+    background-color: rgb(170, 245, 255);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px white;
+    transition: transform  0.3s ease;
+}
+.project-card:hover{
+    transform: translateY(-5px);
+}
+.project-card img{
+    width: 100%;
+    height:auto;
+    border-radius: 8px 8px 0 0 ;
+    display: block;
+}
+.project-card h3{
+    margin: 1rem 0 0.5rem;
+    font-size: 1.5rem;
+}
+.project-card p{
+    margin-bottom: 1rem;
+}
+.btn-small{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 130, 193);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: background-color  0.5s ease;
+}
+.btn-small:hover{
+    background-color: rgb(233, 184, 238);
+}
+.main-footer{
+    background: #9593fa;
+    color: aliceblue;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+.project-card p{
+    padding: 2rem;
+}
+.project-section h2{
+    margin-bottom: 1rem;
+}
