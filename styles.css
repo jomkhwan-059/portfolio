@@ -139,3 +139,42 @@ ul{
 .project-section h2{
     margin-bottom: 1rem;
 }
+
+.about h1{
+    padding-left: 5rem;
+}
+.p{
+    display: flex;
+    max-width: 1100px;
+}
+p{
+    margin: 2rem;
+}
+img{
+    width: 300px;
+    border: #00000050;
+   
+}
+.top{
+    margin-bottom: 5rem;
+}
+.call{
+    text-align: center;
+}
+.project-nongkhwankhao work-gallery{
+    background-color: rgb(170, 245, 255);
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px white;
+    transition: transform  0.3s ease;
+    margin: 2rem;
+}
+img{
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    
+}
+p{
+    text-align: center;
+}
